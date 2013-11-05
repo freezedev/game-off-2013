@@ -23,13 +23,13 @@ define('mygame',
 	
 	// If preloader is complete, everything in this function happens
 	myGame.preloader.on('complete', function() {
-    // Add "scene1" to director
-    myGame.director.add('scene1');
+    // Add "game" to director
+    myGame.director.add('game');
     // Add "scene2" to director
     myGame.director.add('scene2');
 
-    // Show "scene1"
-    myGame.director.show('scene1');
+    // Show "game"
+    myGame.director.show('game');
   });
   
   // Set asset list for preloader
