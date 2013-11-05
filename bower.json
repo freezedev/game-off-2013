@@ -1,6 +1,7 @@
 {
-  "name": "lyria-template",
-  "version": "0.2.1",
+  "name": "provinces-of-rome",
+  "private": true,
+  "version": "0.0.1",
   "main": "index.html",
   "ignore": [
     "**/.*",
