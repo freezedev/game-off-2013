@@ -1,0 +1,44 @@
+{
+  "name": "mygame",
+  "version": "0.2.1",
+  "private": true,
+  "dependencies": {
+    "bower": "~1.2.0",
+    "es6-shim": "~0.9.0",
+    "handlebars": "~1.0.0"
+  },
+  "devDependencies": {
+    "grunt": "0.4.x",
+    "grunt-contrib-jshint": "*",
+    "grunt-concat-sourcemap": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-stylus": "*",
+    "grunt-contrib-csslint": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-clean": "*",
+    "grunt-contrib-compress": "*",
+    "grunt-contrib-connect": "*",
+    "grunt-templater": "*",
+    "grunt-bower-commands": "*",
+    "grunt-lyria-assets": "~0.2.0",
+    "matchdep": "*"
+  },
+  "scripts": {
+    "start": "grunt deploy",
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/freezedev/lyria-template.git"
+  },
+  "lyriaProject": {
+    "author": "Johannes Stein",
+    "title": "My Lyria Template",
+    "description": "This is a pretty awesome template, right?",
+    "lib": {
+      "managed": "bower",
+      "unmanaged": "./lib"
+    }
+  }
+}
