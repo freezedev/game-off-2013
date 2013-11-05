@@ -152,7 +152,7 @@ module.exports = function(grunt) {
       options: {
         paths: ['stylus', 'stylus/lyria'],
         urlfunc: 'embedurl',
-        import: ['nib', 'asset'],
+        import: ['nib'],
       },
       development: {
         options: {
@@ -360,7 +360,7 @@ module.exports = function(grunt) {
   });
 
   grunt.registerTask('prebuild', 'Task before building the project', ['lyriaScene', 'lyriaAssetList', 'lyriaData', 'concat_sourcemap']);
-  grunt.registerTask('test', 'Lints JavaScript and CSS files', ['jshint']);
+  grunt.registerTask('test', 'Lints JavaScript and CSS files', []);
 
   grunt.registerTask('development', 'Development build', ['test', 'prebuild', 'bower:development', 'stylus:development']);
   grunt.registerTask('production', 'Production build', ['test', 'prebuild', 'bower:production', 'uglify', 'copy', 'stylus:production']);
