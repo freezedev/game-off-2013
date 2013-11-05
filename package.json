@@ -1,6 +1,6 @@
 {
-  "name": "mygame",
-  "version": "0.2.1",
+  "name": "por",
+  "version": "0.0.1",
   "private": true,
   "dependencies": {
     "bower": "~1.2.0",
